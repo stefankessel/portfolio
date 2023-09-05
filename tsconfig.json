@@ -20,7 +20,8 @@
     ],
     "paths": {
       "@/*": ["./*"],
-      "@/aws-exports": ["./app/aws-exports.js"]
+      "@/aws-exports": ["./app/aws-exports.js"],
+      "@/components": ["./components/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

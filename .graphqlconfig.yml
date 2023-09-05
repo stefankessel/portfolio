@@ -1,0 +1,26 @@
+projects:
+  portfolio:
+    schemaPath: app/graphql/schema.json
+    includes:
+      - graphql/**/*.ts
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: typescript
+        generatedFileName: API.ts
+        docsFilePath: graphql
+  cimdata:
+    schemaPath: app/graphql/schema.json
+    includes:
+      - graphql/**/*.ts
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: typescript
+        generatedFileName: API.ts
+        docsFilePath: graphql
+extensions:
+  amplify:
+    version: 3

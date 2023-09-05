@@ -1,0 +1,13 @@
+{
+  "resourceName": "cimdata",
+  "policyUUID": "3d0c3a23",
+  "bucketName": "cimdata",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

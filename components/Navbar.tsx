@@ -1,4 +1,5 @@
 import Link from "next/link";
+import AuthButton from "./auth/AuthButton";
 
 const Navbar: React.FC = () => {
   return (
@@ -34,9 +35,10 @@ const Navbar: React.FC = () => {
           <Link href="/about" className="text-white">
             About
           </Link>
-          <Link href="/contact" className="text-white">
-            Contact
+          <Link href="/dashboard" className="text-white">
+            Dashboard
           </Link>
+          {/* <AuthButton isLoggedIn={false} /> */}
         </div>
       </div>
     </nav>
